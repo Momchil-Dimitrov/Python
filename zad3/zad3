@@ -1,0 +1,32 @@
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+////////////////////
+
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+///////////////////////
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles[3])
+///////////////////////////
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles[-1])
+////////////////////////////
+
+magicians = ['Ivo', 'Kiro', 'Petar']
+for magician in magicians:
+ print(magician)
+///////////////////////////////
+
+magicians = ['Ivo', 'Kiro', 'Petar']
+for magician in magicians:
+ print(magician.title() + ", that was a great trick!")
+//////////////////////////////////////////
